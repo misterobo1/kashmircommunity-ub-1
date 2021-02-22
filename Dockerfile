@@ -1,7 +1,7 @@
 FROM Hanan3000/kashmircommunity-ubcatuserbot:latest
 
 #clonning repo 
-RUN git clone  /root/userbot
+RUN git clone https://github.com/Hanan3000/kashmircommunity-ub /root/userbot
 #working directory 
 WORKDIR /root/userbot
 
