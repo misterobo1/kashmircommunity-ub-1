@@ -1,7 +1,7 @@
 
 ## How to deploy KASHMIR COMMUNITY USERBOT
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fsandy1709%2Fcatuserbot%2Ftree%2Fbugs&template=https%3A%2F%2Fgithub.com%2Fsandy1709%2Fcatuserbot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/Hanan3000/kashmircommunity-ub ) 
 
   <details>
     <summary>Steps to deploy on Heroku !! </summary>
