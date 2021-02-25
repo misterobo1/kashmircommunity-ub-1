@@ -1,1 +1,1 @@
-from .catub_config import Config
+from .kcub_config import Config
