@@ -3,14 +3,22 @@
 # Copyright (C) 2020 by sandy1709
 
 echo "
-                    :'######:::::'###::::'########::::
-                    '##... ##:::'## ##:::... ##..:::::
-                     ##:::..:::'##:. ##::::: ##:::::::
-                     ##:::::::'##:::. ##:::: ##:::::::
-                     ##::::::: #########:::: ##:::::::
-                     ##::: ##: ##.... ##:::: ##:::::::
-                    . ######:: ##:::: ##:::: ##:::::::
-                    :......:::..:::::..:::::..::::::::
+                    :##    ###
+                    '##   ##
+                     ##:##
+                     ##
+                     ##:##
+                     ##   ##
+                    .##    ###     
+                 
+                    :'######
+                    '##... ##
+                     ##
+                     ##
+                     ##
+                     ##::: ##:
+                    . ######:: 
+                 
 "
 
 echo "
@@ -32,15 +40,15 @@ else
     rm -rf userbot
     rm -rf .github
     rm -rf sample_config.py
-    git clone https://github.com/sandy1709/catuserbot cat_ub
-    mv cat_ub/userbot .
-    mv cat_ub/.github . 
-    mv cat_ub/.git .
-    mv cat_ub/sample_config.py .
+    git clone https://github.com/Hanan3000/kashmircommunity-ub kashmircommunity-ub
+    mv kashmircommunity-ub/userbot .
+    mv kashmircommunity-ub/.github . 
+    mv kashmircommunity-ub/.git .
+    mv kashmircommunity-ub/sample_config.py .
     python ./.github/update.py
     rm -rf requirements.txt
-    mv cat_ub/requirements.txt .
-    rm -rf cat_ub
+    mv kashmircommunity-ub/requirements.txt .
+    rm -rf kashmircommunity-ub
 fi
 
 python -m userbot
